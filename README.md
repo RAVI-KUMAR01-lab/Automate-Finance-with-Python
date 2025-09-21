@@ -1,65 +1,70 @@
-# Automate-Finance-with-Python
-Automate Finances With Python is a Python project that helps automate everyday financial tracking and analysis tasks. The repository provides tools for reading bank statements, summarizing transactions, categorizing expenditures, and generating simple reports.
-Key Features
+Automate Finances With Python
 
-Bank statement parsing — Load and process CSV bank statements.
+Automate Finances With Python is a Python project that helps automate everyday financial tracking and analysis tasks. Key points include:
 
-Transaction categorization — Automatically classify expenses and income.
+Read Bank Statements – Load and process CSV bank statements.
 
-Summarization & reporting — Compute totals, generate summaries, compare monthly spendings.
+Transaction Categorization – Automatically classify income and expenses.
 
-Easy setup — Requirements are minimal; sample data included to begin experimenting immediately.
+Summarization & Reporting – Compute totals, generate monthly summaries, and track spending trends.
 
-Why Use It
+Data Visualization – Optional graphs and charts to analyze finances visually.
 
-Saves time by automating repetitive finance tasks.
+Time-Saving – Automates repetitive finance tasks for efficiency.
 
-Helps users see where money is going and how spending trends evolve.
+Beginner-Friendly – Suitable for beginners to intermediate Python learners applying code to real-world finance.
 
-Great for beginners to intermediate learners looking to apply Python to real-world finance problems.
+Easy Setup – Minimal requirements with sample data included to get started quickly.
 
-Structure
+Project Structure
 
-main.py — Entry point that ties together data loading, processing, and output.
+main.py — Main script for data processing and report generation.
 
-sample_bank_statement.csv — Example data file to test and learn.
+sample_bank_statement.csv — Example data for testing.
 
-requirements.txt — Necessary Python dependencies.
+requirements.txt — Python dependencies for the project.
 
-If you like, I can also help you write a more detailed README with usage instructions, examples, and maybe even a demo GIF or screenshots?
+Requirements & Installation
 
-You said:
-remove tech with tim name
-ChatGPT said:
+Prerequisites:
 
-Got it 👍 Here’s a clean description for the repo without mentioning Tech With Tim:
+Python 3.8+
 
-Description
+Visual Studio Code (with Python extension)
 
-Automate Finances With Python is a Python project that helps automate everyday financial tracking and analysis tasks. The repository provides tools for reading bank statements, summarizing transactions, categorizing expenditures, and generating simple reports.
+Git
 
-Key Features
+Installation Steps:
 
-Bank statement parsing — Load and process CSV bank statements.
+Clone the repository:
 
-Transaction categorization — Automatically classify expenses and income.
+git clone https://github.com/your-username/AutomateFinancesWithPython.git
+cd AutomateFinancesWithPython
 
-Summarization & reporting — Compute totals, generate summaries, compare monthly spendings.
 
-Easy setup — Requirements are minimal; sample data included to begin experimenting immediately.
+Create & activate a virtual environment:
 
-Why Use It
+# Create virtual environment
+python -m venv venv  
 
-Saves time by automating repetitive finance tasks.
+# Activate (Windows PowerShell)
+venv\Scripts\Activate.ps1  
 
-Helps users see where money is going and how spending trends evolve.
+# Activate (Linux/Mac)
+source venv/bin/activate
 
-Great for beginners to intermediate learners looking to apply Python to real-world finance problems.
 
-Structure
+Install dependencies:
 
-main.py — Entry point that ties together data loading, processing, and output.
+pip install -r requirements.txt
 
-sample_bank_statement.csv — Example data file to test and learn.
 
-requirements.txt — Necessary Python dependencies.
+Run the project (Streamlit app):
+
+streamlit run main.py
+
+Dependencies
+streamlit==1.32.0
+pandas==2.2.0
+plotly==5.18.0
+numpy==1.26.4
