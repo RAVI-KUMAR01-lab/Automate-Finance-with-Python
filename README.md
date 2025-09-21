@@ -38,8 +38,6 @@ Installation Steps:
 
 Clone the repository:
 
-git clone https://github.com/your-username/AutomateFinancesWithPython.git
-cd AutomateFinancesWithPython
 
 
 Create & activate a virtual environment:
