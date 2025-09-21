@@ -1,4 +1,4 @@
-Automate Finances With Python
+**Automate Finances With Python**
 
 Automate Finances With Python is a Python project that helps automate everyday financial tracking and analysis tasks. Key points include:
 
